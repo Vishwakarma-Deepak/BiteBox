@@ -1,0 +1,45 @@
+ body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("ChatGPT\ Image\ Sep\ 3\,\ 2026\,\ 04_51_51\ PM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ * {
+     margin: 0;
+     padding: 0;
+    }
+
+ header {
+     display: flex;
+     align-items: center;
+     height: 70px;
+     background-color: black;
+     justify-content: space-between;
+     /* top right bottom left */
+     padding: 0px 30px 0px 30px;
+    }
+
+img{
+     color: white;
+     
+    }
+
+nav a{
+     color: white;
+     text-decoration: none;
+     font-size: 25px;
+    }
+
+ nav{
+     display: flex;
+     gap: 30px;
+     align-items: center;
+    }
+
+    a:hover{
+        color: red;
+
+    }
