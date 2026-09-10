@@ -1,45 +1,111 @@
- body {
+* {
     margin: 0;
-    min-height: 100vh;
-
-    background-image: url("ChatGPT\ Image\ Sep\ 3\,\ 2026\,\ 04_51_51\ PM.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding: 0;
 }
- * {
-     margin: 0;
-     padding: 0;
-    }
 
- header {
-     display: flex;
-     align-items: center;
-     height: 70px;
-     background-color: black;
-     justify-content: space-between;
-     /* top right bottom left */
-     padding: 0px 30px 0px 30px;
-    }
+header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    justify-content: space-between;
+    /* top right bottom left */
+    padding: 0px 30px 0px 30px;
+}
 
-img{
-     color: white;
-     
-    }
 
-nav a{
-     color: white;
-     text-decoration: none;
-     font-size: 25px;
-    }
 
- nav{
-     display: flex;
-     gap: 30px;
-     align-items: center;
-    }
 
-    a:hover{
-        color: red;
 
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+a:hover {
+    color: red;
+
+}
+
+.hero {
+    height: 90vh;
+    background: url("./images/background.jpeg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: darkred;
+}
+
+.video-section{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.video-text{
+    flex: 1;
+}
+
+.video-box{
+    flex: 1;
+}
+
+.video-box video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.video-text p{
+    font-size: 18px;
+    color: #444;
+}
+
+.about{
+    text-align: center;
+    padding: 60px 20px;
+    background-color:white;
+    
+}
+
+.about h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgba(255, 0, 0,0.615);
+}
+
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.6;
+}
