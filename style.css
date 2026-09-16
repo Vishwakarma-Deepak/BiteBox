@@ -254,3 +254,87 @@ footer ul{
 .deal-hero p{
     font-size: 18px;
 }
+
+.combo-section{
+    padding: 70px;
+    background: #fff;
+}
+
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.combo-card{
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+
+.combo-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.combo-card h4{
+    margin: 10px 0px;
+}
+
+.combo-card h4 span{
+    text-decoration:line-through ;
+    color: gray;
+    margin-right:10px ;
+}
+
+.combo-card button{
+    background: red;
+    color: white;
+    border: none;
+    /* topbottom  rightleft */
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.combo-card button:hover{
+    background: #cc0000;
+}
+.combo-card:hover{
+    transform: translateY(-8px);
+}
+
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.deal-card{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.deal-card h3{
+    margin-bottom: 10px;
+}
+
+.deal-card span{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.deal-card:hover{
+    transform: translateY(-8px);
+}
