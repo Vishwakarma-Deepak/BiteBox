@@ -15,12 +15,35 @@ header {
 
 
 
+/* extra added login-btn */
+header img{
+    width: 100px;
+    height: 30px;
+}
+
+
+
+.login-btn{
+    background: red;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 6px;
+
+}
+.login-btn:hover{
+    color: white;
+    background: darkred;
+}
+
+/* extra ended  */
+
 
 
 nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+
 }
 
 nav {
@@ -319,7 +342,7 @@ footer ul{
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
 }
 
 .deal-card h3{
@@ -337,4 +360,110 @@ footer ul{
 
 .deal-card:hover{
     transform: translateY(-8px);
+}
+
+.red{
+    border-top: 5px solid red;
+}
+
+.yellow{
+    border-top: 5px solid yellow;
+}
+
+.green{
+    border-top: 5px solid green;
+}
+
+.section-title{
+    margin: 30px 0px 20px;
+    font-size: 28px;
+    color: #000;
+
+}
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+
+thead{
+    background: red;
+    color: white;
+}
+
+th,td{
+    text-align: center;
+    padding: 15px;
+}
+tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.item img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.remove{
+    /* color: white; */
+    background: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.remove:hover{
+    background: darkred;
+}
+
+.grand-total td{
+    font-weight: bold;
+    font-size: 18px;
+}
+.grand-total button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.grand-total button:hover{
+    background: darkred;
+}
+.qty-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.qty-box button{
+    width: 28px;
+    height: 28px;
+    background: red;
+    color: white;
+    border: none;
+    font: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.qty-box button:hover{
+    background: #cc0000;
 }
