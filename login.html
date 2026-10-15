@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/53b1afb8c1.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-     <header>
+    <header>
         <!-- <h1>Bite<span style="color: red;">Box</span></h1> -->
         <img src="images/Bitebox2.png">
 
@@ -30,14 +33,28 @@
             <h2>Login to BiteBox</h2>
 
             <form action="">
-                <input type="email" placeholder="Enter your email">
-                <input type="password" placeholder="Enter your password">
-                <button type="button">Login</button>
+                <input type="email" placeholder="Enter your email" id="emaildata" required>
+
+                <div style="position: relative;">
+                    <input type="password" placeholder="Enter your password" id="password" required>
+                    <span onclick="togglePassword()" style="position:absolute;
+                    right: 10px;
+                    top:50%;  transform: translateY(-50%); cursor: pointer;">
+                        <i class="fa-solid fa-eye"></i>
+
+                    </span>
+                </div>
+
+                <button type="button" onclick="login()">Login</button>
             </form>
+            <p id="error" style="color: red;"></p>
             <p><a href="signup.html"></a>Forget Password</p>
             <p>Don't have an account? <a href="signup.html">Signup</a></p>
         </div>
     </section>
-    
+
+    <script src="style.js"></script>
+
 </body>
+
 </html>
